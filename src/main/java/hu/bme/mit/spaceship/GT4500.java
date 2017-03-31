@@ -1,4 +1,5 @@
 package hu.bme.mit.spaceship;
+//WWWWWWWWWWWWWWWWWWWWWWWW
 
 /**
 * A simple spaceship with two proton torpedos and four lasers
