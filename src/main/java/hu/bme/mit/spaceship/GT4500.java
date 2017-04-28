@@ -20,7 +20,11 @@ public class GT4500 implements SpaceShip {
 
   public boolean fireLasers(FiringMode firingMode) {
     // TODO not implemented yet
-    return false;
+    return firelaser();
+  }
+  
+  private firelaser(){
+    return true; 
   }
 
   /**
