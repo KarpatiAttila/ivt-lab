@@ -12,9 +12,9 @@ public class GT4500Test {
 
   @Before
   public void init(){
-    mockDA = mock(TorpedoStore.class);
-
-    this.ship = new GT4500();
+    mock1 = mock(TorpedoStore.class);
+    mock2 = mock(TorpedoStore.class);
+    this.ship = new GT4500(mock1, mock2);
   }
 
   @Test
