@@ -23,7 +23,7 @@ public class GT4500 implements SpaceShip {
     return firelaser();
   }
   
-  private firelaser(){
+  private boolean firelaser(){
     return true; 
   }
 
