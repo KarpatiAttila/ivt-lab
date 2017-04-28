@@ -39,7 +39,7 @@ public class GT4500 implements SpaceShip {
   @Override
   public boolean fireTorpedos(FiringMode firingMode) {
 
-    boolean firingSuccess = false;
+    boolean firingSuccess = true;
 
     switch (firingMode) {
       case SINGLE:
