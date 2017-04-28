@@ -12,6 +12,8 @@ public class GT4500Test {
 
   @Before
   public void init(){
+    mockDA = mock(TorpedoStore.class);
+
     this.ship = new GT4500();
   }
 
