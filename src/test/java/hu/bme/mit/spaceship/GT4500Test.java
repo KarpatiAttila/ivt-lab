@@ -28,6 +28,9 @@ public class GT4500Test {
 
     // Assert
     assertEquals(true, result);
+    
+    verify(mock1, times(1)).fire(1);
+
   }
 
   @Test
